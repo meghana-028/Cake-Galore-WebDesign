@@ -1,0 +1,108 @@
+* {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
+html {
+  font-size: 80.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 7rem;
+  scroll-behavior: smooth;
+}
+.infocontainer {
+  margin: 50pz 30px 50px 0;
+  padding: auto;
+  box-sizing: border-box;
+  background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGQ1N2JhdGNoMS10YW5nLTAxYS5qcGc.jpg")
+    no-repeat;
+  background-position: cover;
+}
+
+.footer {
+  background: url(images/backGround.png) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.footer .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+}
+.footer .box-container .mainBox .content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.footer .box-container .mainBox .content h1 {
+  font-size: 1rem;
+  color: var(--black);
+}
+.footer .box-container .mainBox p {
+  font-size: 1.7rem;
+  line-height: 1.3;
+  margin-bottom: 2rem;
+}
+.footer .box-container .box h3 {
+  font-size: 2.2rem;
+  color: var(--black);
+  padding: 1rem 0;
+}
+.footer .box-container .box a {
+  display: block;
+  font-size: 1.6rem;
+  color: var(--black);
+  padding: 1rem 0;
+}
+.footer .box-container .box a i {
+  padding-right: 0.5rem;
+  color: var(--black);
+}
+.footer .box-container .box a:hover i {
+  padding-right: 2rem;
+}
+
+.footer .share {
+  padding: 1rem 0;
+  text-align: center;
+}
+.footer .share a {
+  height: 4rem;
+  width: 4rem;
+  line-height: 4rem;
+  font-size: 2rem;
+  color: var(--white);
+  background: var(--black);
+  margin: 0 0.3rem;
+  border-radius: 50%;
+}
+.footer .share a:hover {
+  background: var(--white);
+  color: var(--black);
+}
+.footer .credit {
+  font-size: 2rem;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  color: var(--black);
+  text-align: center;
+}
+
+/* thanks for watching my video  */
+
+.swiper-pagination-bullet {
+  background-color: var(--black);
+}
+.swiper-button-next {
+  color: var(--black);
+}
+.swiper-button-prev {
+  color: var(--black);
+}
